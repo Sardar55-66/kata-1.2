@@ -1,0 +1,229 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(./fonts/Barlow-Light.otf);
+}
+
+.wrapper-for-windows {
+    width: 100%;
+}
+.left-window {
+    
+    width: 50%;
+    min-height: 900px;
+    background: url('../img/bg-left.jpg') no-repeat;
+    background-size: cover;
+    float: left;
+
+    .logo-intoo {
+        img {
+            width: 20%;
+            margin: 20px;
+        }
+    }
+
+    
+}
+
+.right-window {
+    width: 50%;
+    min-height: 900px;
+    background: #EFF6FF;
+    float: left;
+
+    .text-block {
+        width: 100%;
+        margin: 50px;
+
+        .get-into {
+            font-family: 'Barlow';
+            display: flex;
+            font-size: 20px;
+            color: #2A4A5C;
+        }
+        .subtext {
+            font-family: 'Barlow';
+            display: flex;
+            font-size: 14px;
+            color: #2A4A5C;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+        margin: 25px;
+        width: 80%;
+        .fb-button {
+            display: flex;
+            align-items: center;
+            background: #255A9B;
+            color: #FFFFFF;
+            padding: 10px;
+            font-size: 13px;
+            width: 40%;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .in-button {
+            display: flex;
+            align-items: center;
+            background: #0076B6;
+            color: #FFFFFF;
+            padding: 10px;
+            font-size: 13px;
+            width: 40%;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .fb-button:hover,:focus {
+            background: #96A5B1;
+        }
+        .in-button:hover,:focus {
+            background: #AFAFAF;
+        }
+        img {
+            display: flex;
+            align-items: flex-end;
+            justify-items: center;
+            width: 20px;
+            margin-right: 20px;
+            margin-left: 10px;
+        }
+
+    }
+
+    .or-divider {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 75%;
+        text-align: center;
+        margin: 50px 45px;
+
+        .or {
+            font-size: 12px;
+        }
+        .left-line {
+            height: 1px;
+            width: 40%;
+            background: #96A5B1;
+        }
+        .right-line {
+            height: 1px;width: 40%;
+            background: #96A5B1;
+        }
+    }
+
+    //форма заполнения почты и номера
+
+    .contact-form {
+        width: 80%;
+        margin: 25px;
+
+        .contacts {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .email, .phone {
+            border-radius: 5px;
+            border: 1px solid #EEEEEE;
+            background: #FFFFFF;
+            width: 40%;
+            padding: 10px;
+            color: #96A5B1;
+            min-height: 65px;
+        }
+        .email {
+            border-left: 1px solid #3698FB;
+        }
+
+        input {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            height: 60%;
+            border: none;
+        }
+    }
+
+    .investor-title, .investor-subtitle {
+        display: flex;
+        margin: 50px 0 15px 45px;
+        justify-content: space-evenly;
+        width: 45%;
+        text-align: left;
+        color: #2a4a5c;
+    }
+    .investor-subtitle {
+        margin: 0 0 50px 45px;
+        width: 43%;
+        font-size: 15px;
+    }
+
+    #investors-type {
+        width: 100%;
+        margin: 0 auto;
+        fieldset {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        border: none;
+        }
+    }
+    .subtext {
+        width: 30%;
+        color: #AFAFAF;
+        font-size: 15px;
+        margin: 30px 0 30px 45px;
+    }
+    .agreement {
+        display: inline-block;
+        width: 80%;
+        color: #AFAFAF;
+        font-size: 15px;
+        margin: 30px 0 0 60px;
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #3698FB;
+            transition: 0.5s all;
+        }
+        a:hover,:focus {
+            transform: scale(1.2);
+            text-decoration: underline;
+            
+        }
+    }
+    .create-account {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 15px;
+        width: 25%;
+        min-height: 50px;
+        display: flex;
+        color: #FFFFFF;
+        border: none;
+        background: #3698FB;
+        border-radius: 5px;
+        margin: 35px 20px 0 40px;
+        cursor: pointer;
+        transition: 0.7s all;
+    }
+    .create-account:hover,:focus {
+        color: #2A4A5C;
+        transform: scale(1.1);
+    }
+}
