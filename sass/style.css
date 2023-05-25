@@ -8,7 +8,7 @@ body {
 
 @font-face {
   font-family: "Barlow";
-  src: url(./fonts/Barlow-Light.otf);
+  src: url(../fonts/Barlow-Light.otf);
 }
 .wrapper-for-windows {
   width: 100%;
@@ -17,7 +17,7 @@ body {
 .left-window {
   width: 50%;
   min-height: 900px;
-  background: url("./img/bg-left.jpg") no-repeat;
+  background: url("../img/bg-left.jpg") no-repeat;
   background-size: cover;
   float: left;
 }
@@ -175,7 +175,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 50px 0 15px 0;
+  margin: 50px 0 15px 45px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -184,7 +184,7 @@ body {
   color: #2a4a5c;
 }
 .right-window .investor-subtitle {
-  margin: 0 0 50px 0;
+  margin: 0 0 50px 45px;
   width: 43%;
   font-size: 15px;
 }
@@ -205,7 +205,7 @@ body {
   width: 30%;
   color: #AFAFAF;
   font-size: 15px;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 30px 45px;
 }
 .right-window .agreement {
   display: inline-block;
